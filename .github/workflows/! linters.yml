@@ -48,7 +48,7 @@ jobs:
         run: npx stylelint "**/*.{css,scss}"
   nodechecker:
     name: node_modules checker
-    runs-on: ubuntu-22.04
+    runs-on: windows-10
     steps:
       - uses: actions/checkout@v2
       - name: Check node_modules existence
